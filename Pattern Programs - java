@@ -1,0 +1,95 @@
+/*public class Main {
+    public static void main(String[] args) {
+        int n = 5; // Set n to a positive value
+
+        // First pattern
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("*");
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+
+        // Call the second program
+        program2();
+    }
+
+    // Second pattern method
+    public static void program2() {
+        int n = 5; // Set n to a positive value
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print("*");
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+
+}
+public class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print(col);
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int n = 5;
+        for(int row=0; row < 2 * n;row++){
+            int total = row>n ? 2*n - row: row;
+            for(int col=0; col < total ;col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+public class Main {
+    public static void pattern28(int n) {
+        for (int row = 1; row < 2 * n; row++) {
+            int totalColsInRow = row > n ? 2 * n - row : row;
+            int noOfSpaces = n - totalColsInRow;
+
+            // Printing spaces
+            for (int s = 0; s < noOfSpaces; s++) {
+                System.out.print(" ");
+            }
+
+            // Printing stars
+            for (int col = 0; col < totalColsInRow; col++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        int n = 5; // Example input
+        pattern28(n); // Calling the pattern method
+    }
+}
+
+public class Main{
+    public static void main(String args[]){
+        int n = 5;
+        for(int row=1;row<=n;row++){
+            for (int space=0; space<=n-row;space++) {
+                System.out.print(" ");
+            }
+            for (int col=row;col>=1;col--){
+                System.out.print(col+" ");
+            }
+            for (int col=2;col<=row;col++){
+                System.out.print(col+ " ");
+            }
+            System.out.println();
+
+        }
+    }
+}
+*/
