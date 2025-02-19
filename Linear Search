@@ -1,0 +1,78 @@
+/*public class Main{
+    public static void main(String args[]){
+        int[] num ={20,21,30,70,-1,7,-5};
+        int target=30;
+        int ans = LinearSearch(num,target);
+        System.out.println(ans);
+    }
+    static int LinearSearch(int [] arr , int target ) {
+        if (arr.length == 0) {
+            return -1;
+        }
+        for (int index = 0; index < arr.length; index++) {
+            int element = arr[index];
+            if (element == target) {
+                return index;
+            }
+        }
+         return -1;
+        }
+
+    }
+
+    String and char accessing
+public class Main {
+    public static void main(String args[]) {
+        String name = "pavithran";
+        char target = 'v';
+        System.out.println(Search(name, target));
+    }
+
+    static boolean Search2(String str, char target) {
+        if (str.length() == 0) {
+            return false;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            if (target == str.charAt(i)) {
+                return true;
+            }
+        }
+        return false; // Moved inside the method and fixed typo
+    }
+}
+
+    with in a range program
+
+public class Main{
+    public static void main(String args[]){
+        int[] num ={20,21,30,70,-1,7,-5};
+        int target=30;
+        System.out.println(LinearSearch(num,target,2,5));
+
+    }
+    static int LinearSearch(int [] arr , int target , int start , int end ) {
+        if (arr.length == 0) {
+            return -1;
+        }
+        for (int index = start; index <=end; index++) {
+            int element = arr[index];
+            if (element == target) {
+                return index;
+            }
+        }
+         return -1;
+        }
+
+    }
+    leet code 1295
+ class Solution {
+    public int findNumbers(int[] nums) {
+       int count=0;
+       for(int num:nums){
+          if(String.valueOf(num).length() % 2 == 0){
+            count++;
+          }
+       }
+       return count;
+       }
+    }*/
