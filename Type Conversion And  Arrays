@@ -1,0 +1,187 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+/*
+class Main {
+    public static void main(String[] args) {
+        int x;
+        for(x=0;x<10;x++)
+        System.out.println(x);
+    }
+} program 2
+class Main {
+    public static void main(String[] args) {
+        int x,y;
+        y=20;
+        for(x=0;x<10;x++){
+            System.out.println(x);
+            System.out.println(y);
+            y=y-2;
+        }
+    }
+}program 3 lightspeed
+class Main {
+    public static void main(String[] args) {
+        int lightspeed;
+        long days;
+        long seconds;
+        long distance;
+        
+        lightspeed=186000;
+        days=1000;
+        seconds=days*24*60*60;
+        distance=lightspeed*seconds;
+        
+        System.out.println(" In " + days + " days light will travel about "+distance+" miles ");
+    }
+} program 4 square root
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner Sc=new Scanner(System.in);
+        double pi,r,square;
+        pi=3.14;
+        r=Sc.nextDouble();
+        square=pi*r*r;
+        System.out.println(square);
+    }}program 5 char 
+    class Main {
+    public static void main(String[] args) {
+        char ch1,ch2;
+        ch1=80;
+        ch2=65;
+        System.out.println(ch1+" " +ch2);
+    }
+    } program 6
+     class Main {
+    public static void main(String[] args) {
+        char ch1,ch2;
+        ch1='X';
+        ch2=ch1++;
+        System.out.println(ch1+" " +ch2);
+    }}program 6
+    class Main {
+    public static void main(String[] args) {
+        boolean b;
+        b=false;
+        System.out.println("b is"+b);
+        b=true;
+        System.out.println("b is"+b);
+        if(b) System.out.println("this will executed");
+        b=false;
+        if(b) System.out.println("this will not executed");
+        System.out.print("10 > 9 is " + (10>9));
+    }
+    }program 7 // Demonstrate dynamic initialization.
+
+    class Main {
+    public static void main(String[] args) {
+        double a=3.0,b=4.0;
+        double c =Math.sqrt(a*a + b*b);
+        System.out.println(" hypo "+c);
+    }
+    }
+    
+    program 8 scope
+    class Main {
+    public static void main(String[] args) {
+        int x;
+        x=10;
+        if(x==10){
+            int y =20;
+            System.out.println("x and y : " + x + " " + y);
+            x=y*2;
+        }
+        int y=100;
+        System.out.println("x is " + x + "  y is " + y);
+    }
+    } program 9  Demonstrate lifetime of a variable.
+    class Main {
+        public static void main(String[] args) {
+            int x , y;
+            for(x=0;x<3;x++){
+            y=-1;
+            System.out.println("y is" +y);
+            y=100;
+            System.out.println("y is now" + y);
+            }
+        }
+    }
+    
+    
+program 10 conversion
+ class Main {
+        public static void main(String[] args) {
+            byte b;
+            int i =6;
+            double d=89.9099;
+            System.out.println("Conversion of int to byte");
+            b=(byte) i;
+            System.out.println("i to b is " + i + " " +b);
+            System.out.println(" Conversion of double to int");
+            i=(int) d;
+            System.out.println(" d to i is " + d + " " + i );
+            System.out.println("Conversion  of double to byte");
+            b=(byte) d;
+            System.out.println("D to B is" + d + " " + b);
+        }}
+        
+        //program 11 
+class Promote {
+    public static void main(String[] args) {
+        byte b = 42;
+        char c = 'a';
+        short s = 1024;
+        int i = 50000;
+        float f = 5.67f;
+        double d = 0.1234;
+
+        double result = (f * b) + (i / c) - (d * s);
+        System.out.println((f * b) + " + " + (i / c) + " - " + (d * s));
+        System.out.println("result = " + result);
+    }
+}
+
+//  Program 12 ARRAY
+class Promote {
+    public static void main(String[] args) {
+        int arr[] = new int[12];
+
+        // Correct array assignments
+        arr[0] = 31;
+        arr[1] = 28;
+        arr[2] = 31;
+        arr[3] = 30;
+        arr[4] = 31;
+        arr[5] = 30;
+        arr[6] = 31;
+        arr[7] = 31;
+        arr[8] = 30;
+        arr[9] = 31;
+        arr[10] = 30;
+        arr[11] = 31;
+
+        // Corrected print statement
+        System.out.println("April has " + arr[3] + " days.");
+    }
+}program 13 
+class Matrix {
+    public static void main(String args[]) {
+        double m[][] = {
+            { 0*0, 1*0, 2*0, 3*0 },
+            { 0*1, 1*1, 2*1, 3*1 },
+            { 0*2, 1*2, 2*2, 3*2 },
+            { 0*3, 1*3, 2*3, 3*3 }
+        };
+
+        int i, j;
+        for(i = 0; i < 4; i++) {
+            for(j = 0; j < 4; j++) {
+                System.out.print(m[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}*/
+
+
+        
